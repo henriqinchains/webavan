@@ -1,0 +1,25 @@
+    const altura = 3;
+    const base = 4;
+
+    let area = altura*base;
+    let perimetro = (altura*2) + (base*2);
+
+    console.log("area: " +area);
+    console.log("perimetro:" +perimetro);
+
+    // a. Declare uma variável com um boleano
+    let varBool = true;
+
+    // b. Declare uma variável com um número decimal
+    var decimal = 1.1;
+    // c. Verifique se o número é inteiro
+    Number.isInteger(decimal);
+    // d. Converta o número para string com 2 casas decimais
+    decimal.toFixed(2);
+    decimal.toString();
+    // e. Calcule a potência desse número elevado a 3
+    Math.pow(decimal, 3);
+    // f. Gere um número aleatório entre 1 e 100
+    Math.floor(Math.random() * 100 ) +1;
+
+
